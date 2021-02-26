@@ -1,0 +1,18 @@
+Source: wsl-drop-caches
+Section: contrib/misc
+Priority: optional
+Maintainer: Alistair Young <avatar@arkane-systems.net>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.5.0
+Homepage: https://github.com/arkane-systems/wsl-drop-caches
+Vcs-Git: https://github.com/arkane-systems/wsl-drop-caches.git
+Vcs-Browser: https://github.com/arkane-systems/wsl-drop-caches
+
+Package: wsl-drop-caches
+Architecture: amd64
+Depends: ${misc:Depends}, ${shlibs:Depends}, systemd, python3, python3-psutil
+Description: periodically drops the caches, saving memory under Windows Subsystem for Linux
+  A perl script which periodically drops the caches, which saves memory under
+  Windows Subsystem for Linux, which would otherwise expand to use all WSL
+  available memory.
+

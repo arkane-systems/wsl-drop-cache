@@ -1,0 +1,20 @@
+#!/usr/bin/make -f
+# See debhelper(7) (uncomment to enable)
+# output every command that modifies files on the build system.
+DH_VERBOSE = 1
+export DH_OPTIONS=-v
+
+# see FEATURE AREAS in dpkg-buildflags(1)
+#export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	#
+
+override_dh_auto_install:
+	make package-inner
+
+override_dh_auto_clean:
+	#
