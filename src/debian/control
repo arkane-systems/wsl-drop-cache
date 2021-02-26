@@ -10,9 +10,9 @@ Vcs-Browser: https://github.com/arkane-systems/wsl-drop-caches
 
 Package: wsl-drop-caches
 Architecture: amd64
-Depends: ${misc:Depends}, ${shlibs:Depends}, systemd, python3, python3-psutil
+Depends: ${misc:Depends}, systemd, python3, python3-psutil
 Description: periodically drops the caches, saving memory under Windows Subsystem for Linux
-  A perl script which periodically drops the caches, which saves memory under
-  Windows Subsystem for Linux, which would otherwise expand to use all WSL
-  available memory.
+ A python script which periodically drops the caches, which saves memory under
+ Windows Subsystem for Linux, which would otherwise expand to use all WSL
+ available memory.
 
