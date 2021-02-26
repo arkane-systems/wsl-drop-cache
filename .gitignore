@@ -1,3 +1,17 @@
+*.build
+*.buildinfo
+*.changes
+*.deb
+*.dsc
+*.tar.xz
+
+debian/.debhelper/
+debian/wsl-drop-caches/
+debian/debhelper-build-stamp
+debian/files
+debian/wsl-drop-caches.postrm.debhelper
+debian/wsl-drop-caches.substvars
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
