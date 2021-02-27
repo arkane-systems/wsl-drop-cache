@@ -1,0 +1,13 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Mert Can Demir
+Upstream-Contact: validatedev@gmail.com
+Source: https://github.com/validatedev/drop-cache-if-idle
+
+Files: *
+Copyright: 2021 Alistair Young <avatar@arkane-systems.net>
+License: /usr/share/common-licenses/GPL-3
+
+Files: drop_cache_if_idle
+Copyright: 2021 Mert Can Demir <validatedev@gmail.com>
+License: /usr/share/common-licenses/GPL-3
+

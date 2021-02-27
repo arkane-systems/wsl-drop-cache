@@ -5,12 +5,12 @@
 *.dsc
 *.tar.xz
 
-debian/.debhelper/
-debian/wsl-drop-caches/
-debian/debhelper-build-stamp
-debian/files
-debian/wsl-drop-caches.postrm.debhelper
-debian/wsl-drop-caches.substvars
+src/debian/.debhelper/
+src/debian/wsl-drop-caches/
+src/debian/debhelper-build-stamp
+src/debian/files
+src/debian/wsl-drop-caches.postrm.debhelper
+src/debian/wsl-drop-caches.substvars
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
