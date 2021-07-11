@@ -1,3 +1,9 @@
+wsl-drop-caches (0.2) buster bullseye bookworm sid focal bionic; urgency=medium
+
+        * Update systemd unit definitions.
+
+ -- Alistair Young <avatar@arkane-systems.net>  Sat, 10 Jul 2021 21:12:00 -0500
+
 wsl-drop-caches (0.1) buster bullseye bookworm sid focal bionic; urgency=medium
 
         * Initial release.
