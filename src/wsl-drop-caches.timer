@@ -1,7 +1,7 @@
 [Unit]
 Description=Periodically drop caches to save memory under WSL.
 Documentation=https://github.com/arkane-systems/wsl-drop-caches
-ConditionVirtualization=microsoft
+ConditionVirtualization=wsl
 PartOf=wsl-drop-caches.service
 
 [Timer]
