@@ -4,9 +4,9 @@ Priority: optional
 Maintainer: Alistair Young <avatar@arkane-systems.net>
 Build-Depends: debhelper-compat (= 12)
 Standards-Version: 4.5.0
-Homepage: https://github.com/arkane-systems/wsl-drop-caches
-Vcs-Git: https://github.com/arkane-systems/wsl-drop-caches.git
-Vcs-Browser: https://github.com/arkane-systems/wsl-drop-caches
+Homepage: https://github.com/arkane-systems/wsl-drop-cache
+Vcs-Git: https://github.com/arkane-systems/wsl-drop-cache.git
+Vcs-Browser: https://github.com/arkane-systems/wsl-drop-cache
 
 Package: wsl-drop-caches
 Architecture: amd64
