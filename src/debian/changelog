@@ -1,6 +1,6 @@
 wsl-drop-caches (0.5) buster bullseye bookworm sid focal bionic; urgency=medium
 
-	* Fix incorrect URLs in package.
+        * Fix incorrect URLs in package.
 
  -- Alistair Young <avatar@arkane-systems.net>  Thu, 03 Feb 2022 10:54:00 -0500
 
